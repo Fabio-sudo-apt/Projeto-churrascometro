@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./icon/beef.svg" type="image/x-icon">
+  </head>
+  <body>
+    <div id="conteiner">
+      <img src="./icon/beef.svg" id="icon">
+      <h1>Churrascômetro</h1>
+      
+      <input id="adultos" type="number" name="adultos" placeholder="Adultos"/>
+
+      <input id="criancas" type="number" name="criancas"  placeholder="Crianças"/>
+
+      <input id="duracao" type="number" name="duracao"  placeholder="Duração(H)"/>
+
+      <button onclick="app()" id="enviar">Calcular</button>
+
+      <div id="resultado"></div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+  </body>
+</html>
